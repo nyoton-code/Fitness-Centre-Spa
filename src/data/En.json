@@ -1,0 +1,213 @@
+
+{
+  "header": {
+    "logo": ["Fitness" , "center"],
+    "links": [
+      { "name": "home", "href": "#home", "icon": "faHouse" },
+      { "name": "about", "href": "#about", "icon": "faUser" },
+      { "name": "services", "href": "#service", "icon": "faDumbbell" },
+      { "name": "gallery", "href": "#gallery", "icon": "faImages" },
+      { "name": "prices", "href": "#prices", "icon": "faTags" },
+      { "name": "testimonial", "href": "#testimonial", "icon": "faComments" }
+    ]
+  },
+  "hero": {
+    "into" : ["fitness" , "for" ,  "everyone"],
+    "title": ["start your" , "fitness"],
+    "description": "begin your fitness journey now join us to achieve your health goals with expert guidance and a supportive community.",
+    "buttons": [
+      { "name": "get started", "href": "#about" },
+      { "name": "learn more", "href": "#services" }
+    ]
+  },
+  "stats": [
+    {
+      "number": "08",
+      "label": "Years Experience"
+    },
+    {
+      "number": "350",
+      "label": "Exercise Equipment"
+    },
+    {
+      "number": "225",
+      "label": "Happy Clients"
+    },
+    {
+      "number" : "50",
+      "label" : "expert training" 
+    }
+  ] ,
+
+
+  "about" : {
+    "title": "about us",
+    "subtitle": "customized personal training tailored to your needs",
+    "paragraphs" : "We are a premier fitness center dedicated to helping you achieve your health and wellness goals. Our state-of-the-art facility is equipped with the latest exercise equipment and offers a wide range of fitness classes to suit all levels and interests. Whether you're a beginner or an experienced athlete, our team of certified trainers is here to provide personalized guidance and support every step of the way" ,
+    "list" : ["Muscle Gain" , "Weight Loss" , "Endurance" , "Flexibility" ],
+    "button": { "name": "learn more", "href": "#services" }
+  },
+
+
+  "services": { 
+    "title" : "our services",
+    "subtitle" : "services offered at our gym" ,
+    "servicesoffer" : [
+    {
+      "id": 1,
+      "name": "Group Classes",
+      "title": "Group Classes",
+      "paragraphs": [
+        "A sport in group format with fun and dynamic programs.",
+        "Strength classes to sculpt, tone, and firm your body. Cardio classes to burn calories and improve endurance. Relaxation classes to release stress and improve well-being."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cardio Training",
+      "title": "Cardio Training",
+      "paragraphs": [
+        "Boost your heart and lung capacity for better endurance.",
+        "Our cardio area offers modern machines for walking, running, stepping, rowing, or cycling."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Weight Training",
+      "title": "Weight Training",
+      "paragraphs": [
+        "A fully equipped space with the latest machines.",
+        "Muscle gain, strength and toning, and fat reduction."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Personal Trainer",
+      "title": "Personal Trainer",
+      "paragraphs": [
+        "Train with a certified coach for personalized programs.",
+        "Get motivated, track your progress, and reach your fitness goals faster."
+      ]
+    }
+  ]
+   } ,
+
+   "gallery" : {
+    "title": "our gallery",
+    "subtitle": "Explore Our Fitness Center"
+   },
+
+  "membershipPlans" : [
+    {
+      "id": 1,
+      "name": "single session",
+      "price": "20DH",
+      "features": [
+        "Access to all gym equipment",
+        "1 group fitness class per week",
+        "Free fitness assessment"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Monthly Plan",
+      "price": "200DH",
+      "features": [
+        "Access to all gym equipment",
+        "3 group fitness classes per week",
+        "Free fitness assessment",
+        "1 personal training session per month"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "4 mounth Plan",
+      "price": "600DH",
+      "features": [
+        "Unlimited access to all gym equipment",
+        "Unlimited group fitness classes",
+        "Free fitness assessment",
+        "4 personal training sessions per month",
+        "Access to sauna and steam room"
+      ]
+    }
+
+  ] ,
+  "testimonials" : [
+
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Fitness Enthusiast",
+      "image": "/public/imgs/c1.jpg",
+      "feedback": "Joining this fitness center has been a game-changer for me. The trainers are knowledgeable and supportive, and the community is incredibly motivating. I've seen significant improvements in my strength and endurance since I started coming here."
+    } ,
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Athlete",
+      "image": "/public/imgs/c2.jpg",
+      "feedback": "The variety of classes and equipment available at this fitness center is impressive. I've been able to try new workouts and challenge myself in ways I never thought possible. The atmosphere is welcoming, and I've made great friends here."
+    } ,
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "role": "Beginner",
+      "image": "/public/imgs/c3.jpg",
+      "feedback": "As someone new to fitness, I was nervous about joining a gym. But the staff here made me feel comfortable from day one. They took the time to understand my goals and created a personalized plan that has helped me build confidence and see results."
+    } 
+    
+  ]  ,
+  "schedual" : [
+
+    {
+      "day": "Monday",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "8:00 AM - 10:00 PM"
+    }
+
+  ]  ,
+  "contractInfo" : {
+    "title" : "contact info" ,
+    "subtitle"  : "lorem ipsum dolor sit amet, consectetur adipiscing elit." ,
+    "info" :
+    [
+   {
+    "title" : "Office adress" ,
+    "info" : "Av. El-hourriya, Oulad Teima 83350"
+   } ,
+   {
+    "title" : "Phone" , 
+    "info" : "+212 528 527 230" 
+   },
+   {
+    "title" : "Email" ,
+    "info" :"landingpage@gmail.com" 
+   }
+    ]
+  }
+} 
+
+  
+
+
+

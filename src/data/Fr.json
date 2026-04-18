@@ -1,0 +1,213 @@
+{
+  "header": {
+    "logo": ["Fitness" , "center"],
+    "links": [
+      { "name": "accueil", "href": "#home", "icon": "faHouse" , "id": 1 },
+      { "name": "à propos", "href": "#about", "icon": "faUser" , "id": 2},
+      { "name": "services", "href": "#service", "icon": "faDumbbell" , "id": 3},
+      { "name": "galerie", "href": "#gallery", "icon": "faImages" , "id": 5 },
+      { "name": "tarifs", "href": "#prices", "icon": "faTags"  , "id": 6},
+      { "name": "témoignages", "href": "#testimonial", "icon": "faComments" , "id":7}
+    ]
+  },
+  "hero": {
+    "into": ["fitness", "pour", "tous"],
+    "title": ["commencez votre", "fitness"],
+    "description": "Commencez votre parcours de remise en forme dès maintenant. Rejoignez-nous pour atteindre vos objectifs de santé avec des conseils d’experts et une communauté solidaire.",
+    "buttons": [
+      { "name": "commencer", "href": "#about" },
+      { "name": "savoir plus", "href": "#services" }
+    ]
+  },
+  "stats": [
+    { "number": "08", "label": "Années d'expérience" },
+    { "number": "350", "label": "Équipements de fitness" },
+    { "number": "225", "label": "Clients satisfaits" },
+    { "number": "50", "label": "Entraîneurs experts" }
+  ],
+  "about": {
+    "title": "à propos de nous",
+    "subtitle": "Entraînement personnalisé adapté à vos besoins",
+    "paragraphs": "Votre mode de vie façonne votre bien-être. Notre mission est de vous offrir un espace où vous pouvez non seulement atteindre vos objectifs physiques, mais aussi développer une attitude positive.",
+    "list": ["Prise de muscle", "Perte de poids", "Endurance", "Flexibilité"],
+    "button": { "name": "en savoir plus", "href": "#services" }
+  },
+  "services": {
+    "title": "nos services",
+    "subtitle": "services proposés dans notre salle",
+    "servicesoffer": [
+      {
+        "id": 1,
+        "name": "Cours collectifs",
+        "title": "Cours collectifs",
+        "paragraphs": [
+          "Un sport en groupe avec des programmes ludiques et dynamiques.",
+          "Cours de renforcement pour sculpter et tonifier. Cours cardio pour brûler des calories. Cours de relaxation pour réduire le stress."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Zone Cardio",
+        "title": "Entraînement cardio",
+        "paragraphs": [
+          "Améliorez vos capacités cardiaques et pulmonaires.",
+          "Notre espace cardio offre des machines modernes pour la marche, la course, le rameur et le vélo."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Musculation",
+        "title": "Musculation",
+        "paragraphs": [
+          "Un espace complet avec les dernières machines.",
+          "Prise de muscle, force, tonification et perte de graisse."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Coach personnel",
+        "title": "Coach personnel",
+        "paragraphs": [
+          "Entraînez-vous avec un coach certifié.",
+          "Progressez plus vite grâce à des programmes personnalisés."
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "notre galerie",
+    "subtitle": "Découvrez notre salle de sport"
+  },
+  "Team" : {
+    "title" : "notre équipe",
+    "subtitle" : "Rencontrez nos entraîneurs experts",
+    "coaches" : [
+      {
+        "id": 1,
+        "name": "Ahmed El Mansouri",
+        "role": "Coach de musculation",
+        "image": "/public/imgs/coach1.jpg",
+        "social media": {
+          "facebook": "https://www.facebook.com",
+          "twitter": "https://twitter.com",
+          "instagram": "https://www.instagram.com" 
+        }
+      },
+      {
+        "id": 2,
+        "name": "Youssef El Fassi",
+        "role": "Instructrice de fitness",
+        "image": "/public/imgs/coach2.jpg",
+        "social media": {
+          "facebook": "https://www.facebook.com",
+          "twitter": "https://twitter.com",
+          "instagram": "https://www.instagram.com" 
+        }
+      },
+      {
+        "id": 3,
+        "name": "Sara Benjelloun",
+        "role": "Coach de musculation",
+        "image": "/public/imgs/coach3.jpg",
+        "social media": {
+          "facebook": "https://www.facebook.com",
+          "twitter": "https://twitter.com",
+          "instagram": "https://www.instagram.com" 
+        }      },
+      {
+        "id": 4,
+        "name": "Laila Amrani",
+        "role": "Instructrice de yoga",
+        "image": "/public/imgs/coach4.jpg",
+        "social media": {
+          "facebook": "https://www.facebook.com",
+          "twitter": "https://twitter.com",
+          "instagram": "https://www.instagram.com" 
+        }      }
+    ]
+  },
+  "membershipPlans": [
+    {
+      "id": 1,
+      "name": "séance unique",
+      "price": "20DH",
+      "features": [
+        "Accès à tout le matériel",
+        "1 cours collectif par semaine",
+        "Évaluation gratuite"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "abonnement mensuel",
+      "price": "200DH",
+      "features": [
+        "Accès à tout le matériel",
+        "3 cours collectifs par semaine",
+        "Évaluation gratuite",
+        "1 séance de coaching par mois"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "abonnement 4 mois",
+      "price": "600DH",
+      "features": [
+        "Accès illimité",
+        "Cours collectifs illimités",
+        "Évaluation gratuite",
+        "4 séances de coaching par mois",
+        "Accès au sauna et hammam"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "khalid Alaoui",
+      "role": "Passionné de fitness",
+      "image": "/public/imgs/c1.jpg",
+      "feedback": "Une Salle de Sport au top, très professionnel & competent. Un travail de qualité et une ambiance familiale. Une très grande salle avec du matériel de qualité. Je recommande fortement."
+    },
+    {
+      "id": 2,
+      "name": "mariam essahmoudi",
+      "role": "Athlète",
+      "image": "/public/imgs/c2.jpg",
+      "feedback": "Endroit propre. personnel toujours a l écoute.des coach avec très bonnes compétences. hammam spa haute qualité (faut appeler pour réserver)"
+
+    },
+    {
+      "id": 3,
+      "name": "Salma Aghrabi",
+      "role": "Débutant",
+      "image": "/public/imgs/c3.jpg",
+      "feedback": "Une équipe à l'écoute, pleine de bons conseils et bienveillante. On se sent vite intégrée et accompagnée, surtout quand on est débutante. Merci à tous"
+    },
+    {
+      "id": 4,
+      "name": "Mohamed Tahiri",
+      "role": "gym member",
+      "image": "/public/imgs/c4.jpg",
+      "feedback": "Un endroit où les gens se respectent et se soutiennent. Des coachs passionnés! Un vrai esprit d'équipe, une superbe arène."
+
+    }
+  ],
+  "schedual": [
+    { "day": "Lundi", "hours": "8h00 - 22h00" },
+    { "day": "Mardi", "hours": "8h00 - 22h00" },
+    { "day": "Mercredi", "hours": "8h00 - 22h00" },
+    { "day": "Jeudi", "hours": "8h00 - 22h00" },
+    { "day": "Vendredi", "hours": "8h00 - 22h00" },
+    { "day": "Samedi", "hours": "8h00 - 22h00" }
+  ],
+  "contractInfo": {
+    "title": "contact",
+    "subtitle": "N'hésitez pas à nous contacter",
+    "info": [
+      { "title": "Adresse", "info": "Av. El-hourriya, Oulad Teima 83350" },
+      { "title": "Téléphone", "info": "+212 528 527 230" },
+      { "title": "Email", "info": "fitnesscentere.ouadteima@gmail.com" }
+    ]
+  }
+}
