@@ -39,7 +39,7 @@ function Coaches() {
         spaceBetween={20}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         // navigation
-        // pagination={{
+        // // pagination={{
         //   dynamicBullets: true,
         // }}
         pagination={{ clickable: true }}
